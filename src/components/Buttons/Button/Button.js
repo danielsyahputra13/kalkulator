@@ -1,8 +1,9 @@
 import React from "react";
+import "./Button.css";
 
 const button = (props) => {
   return (
-    <div>
+    <div className="Button">
       <p>{ props.numberOrSign }</p>
     </div>
   );
